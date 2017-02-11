@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Tree.TreeData;
 
 namespace Tree.TreeTraversals
 {
-    class RecursiveLinqTreeTraversal : ITreeTraversal
+    public class RecursiveLinqTreeTraversal : ITreeTraversal
     {
         private readonly ITreeData _treeData;
 

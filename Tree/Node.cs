@@ -2,7 +2,7 @@
 
 namespace Tree
 {
-    class Node
+    public class Node
     {
         public string Header { get; private set; }
         public List<Node> Childs { get; set; }

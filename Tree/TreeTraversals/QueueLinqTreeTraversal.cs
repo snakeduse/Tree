@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tree.TreeData;
 
 namespace Tree.TreeTraversals
 {
-    class QueueLinqTreeTraversal : ITreeTraversal
+    public class QueueLinqTreeTraversal : ITreeTraversal
     {
         private readonly ITreeData _treeData;
 

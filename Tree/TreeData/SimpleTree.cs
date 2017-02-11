@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tree.TreeData
 {
-    class SimpleTree : ITreeData
+    public class SimpleTree : ITreeData
     {
         public IList<Node> Tree
         {

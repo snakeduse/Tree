@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using Tree.TreeData;
 
 namespace Tree.TreeTraversals
 {
-    /// <summary>
+    /// <summary>-
     /// Рекурсивный алгоритм обхода дерева
     /// </summary>
-    class RecursiveTreeTraversal : ITreeTraversal
+    public class RecursiveTreeTraversal : ITreeTraversal
     {
         private readonly ITreeData _treeData;
 

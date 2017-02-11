@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace Tree
+namespace Tree.TreeTraversals
 {
-    interface ITreeTraversal
+    public interface ITreeTraversal
     {
         int Count { get; }
 

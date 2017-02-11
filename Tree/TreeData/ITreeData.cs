@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tree
+namespace Tree.TreeData
 {
-    interface ITreeData
+    public interface ITreeData
     {
         IList<Node> Tree { get; }
     }
