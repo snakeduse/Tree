@@ -38,18 +38,5 @@ namespace Tree.TreeTraversals
                 }
             }
         }
-
-        //private IEnumerable<Node> RecursiveTraversal(IList<Node> tree)
-        //{
-        //    foreach(var node in tree)
-        //    {
-        //        yield return node;
-
-        //        var childs = RecursiveTraversal(node.Childs)
-        //            {
-
-        //        }
-        //    }
-        //}
     }
 }
